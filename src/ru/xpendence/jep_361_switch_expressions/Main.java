@@ -1,8 +1,6 @@
 package ru.xpendence.jep_361_switch_expressions;
 
 import java.time.LocalDate;
-import java.time.format.TextStyle;
-import java.util.Locale;
 
 /**
  * Описание класса: пару слов что это такое и для чего нужен.
@@ -15,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         translateDayOfWeek("1");
+        translateDayOfWeekOld("1");
     }
 
     public static void translateDayOfWeek(String dayOfWeek) {
